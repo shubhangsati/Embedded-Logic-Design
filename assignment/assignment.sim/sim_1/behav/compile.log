@@ -1,0 +1,28 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/shubhang/ELD/fulladder/fulladder.srcs/sources_1/new/halfadder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module halfadder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/shubhang/ELD/fulladder/fulladder.srcs/sources_1/new/fulladder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fulladder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/shubhang/ELD/assignment/assignment.srcs/sources_1/new/3bitmultiplier.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bitmultiplier
+INFO: [VRFC 10-2458] undeclared symbol a1b0, assumed default net type wire [/home/shubhang/ELD/assignment/assignment.srcs/sources_1/new/3bitmultiplier.v:42]
+INFO: [VRFC 10-2458] undeclared symbol a0b1, assumed default net type wire [/home/shubhang/ELD/assignment/assignment.srcs/sources_1/new/3bitmultiplier.v:43]
+INFO: [VRFC 10-2458] undeclared symbol sum1, assumed default net type wire [/home/shubhang/ELD/assignment/assignment.srcs/sources_1/new/3bitmultiplier.v:44]
+INFO: [VRFC 10-2458] undeclared symbol carry1, assumed default net type wire [/home/shubhang/ELD/assignment/assignment.srcs/sources_1/new/3bitmultiplier.v:44]
+INFO: [VRFC 10-2458] undeclared symbol a2b0, assumed default net type wire [/home/shubhang/ELD/assignment/assignment.srcs/sources_1/new/3bitmultiplier.v:46]
+INFO: [VRFC 10-2458] undeclared symbol a1b1, assumed default net type wire [/home/shubhang/ELD/assignment/assignment.srcs/sources_1/new/3bitmultiplier.v:47]
+INFO: [VRFC 10-2458] undeclared symbol sum2, assumed default net type wire [/home/shubhang/ELD/assignment/assignment.srcs/sources_1/new/3bitmultiplier.v:48]
+INFO: [VRFC 10-2458] undeclared symbol carry2, assumed default net type wire [/home/shubhang/ELD/assignment/assignment.srcs/sources_1/new/3bitmultiplier.v:48]
+INFO: [VRFC 10-2458] undeclared symbol a0b2, assumed default net type wire [/home/shubhang/ELD/assignment/assignment.srcs/sources_1/new/3bitmultiplier.v:49]
+INFO: [VRFC 10-2458] undeclared symbol sum3, assumed default net type wire [/home/shubhang/ELD/assignment/assignment.srcs/sources_1/new/3bitmultiplier.v:50]
+INFO: [VRFC 10-2458] undeclared symbol carry3, assumed default net type wire [/home/shubhang/ELD/assignment/assignment.srcs/sources_1/new/3bitmultiplier.v:50]
+INFO: [VRFC 10-2458] undeclared symbol a2b1, assumed default net type wire [/home/shubhang/ELD/assignment/assignment.srcs/sources_1/new/3bitmultiplier.v:52]
+INFO: [VRFC 10-2458] undeclared symbol sum4, assumed default net type wire [/home/shubhang/ELD/assignment/assignment.srcs/sources_1/new/3bitmultiplier.v:53]
+INFO: [VRFC 10-2458] undeclared symbol carry4, assumed default net type wire [/home/shubhang/ELD/assignment/assignment.srcs/sources_1/new/3bitmultiplier.v:53]
+INFO: [VRFC 10-2458] undeclared symbol a1b2, assumed default net type wire [/home/shubhang/ELD/assignment/assignment.srcs/sources_1/new/3bitmultiplier.v:54]
+INFO: [VRFC 10-2458] undeclared symbol sum5, assumed default net type wire [/home/shubhang/ELD/assignment/assignment.srcs/sources_1/new/3bitmultiplier.v:55]
+INFO: [VRFC 10-2458] undeclared symbol carry5, assumed default net type wire [/home/shubhang/ELD/assignment/assignment.srcs/sources_1/new/3bitmultiplier.v:55]
+INFO: [VRFC 10-2458] undeclared symbol a2b2, assumed default net type wire [/home/shubhang/ELD/assignment/assignment.srcs/sources_1/new/3bitmultiplier.v:57]
+INFO: [VRFC 10-2458] undeclared symbol sum6, assumed default net type wire [/home/shubhang/ELD/assignment/assignment.srcs/sources_1/new/3bitmultiplier.v:58]
+INFO: [VRFC 10-2458] undeclared symbol carry6, assumed default net type wire [/home/shubhang/ELD/assignment/assignment.srcs/sources_1/new/3bitmultiplier.v:58]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/shubhang/ELD/assignment/assignment.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

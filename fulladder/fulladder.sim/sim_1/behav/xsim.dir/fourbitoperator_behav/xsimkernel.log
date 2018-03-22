@@ -1,0 +1,4 @@
+Running: xsim.dir/fourbitoperator_behav/xsimk -simmode gui -wdb fourbitoperator_behav.wdb -simrunnum 0 -socket 35984
+Design successfully loaded
+Design Loading Memory Usage: 146932 KB (Peak: 146948 KB)
+Design Loading CPU Usage: 40 ms

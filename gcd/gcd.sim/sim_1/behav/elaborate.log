@@ -1,0 +1,20 @@
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2015.4/bin/unwrapped/lnx64.o/xelab -wto 5c4fd523445149a5b45d7a386b3e4418 --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_behav xil_defaultlib.top xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port hundreds [/home/shubhang/eldlabs/gcd/gcd.srcs/sources_1/new/top.v:87]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port hundreds [/home/shubhang/eldlabs/gcd/gcd.srcs/sources_1/new/top.v:126]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port hundreds [/home/shubhang/eldlabs/gcd/gcd.srcs/sources_1/new/top.v:86]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.debouncer
+Compiling module xil_defaultlib.frequency_divider(width=19)
+Compiling module xil_defaultlib.binarytobcd
+Compiling module xil_defaultlib.seven_seg_display
+Compiling module xil_defaultlib.pmodsseg
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_behav

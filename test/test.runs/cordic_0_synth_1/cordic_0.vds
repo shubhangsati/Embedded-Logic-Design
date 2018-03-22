@@ -1,0 +1,884 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Wed Oct 18 21:26:18 2017
+# Process ID: 19345
+# Current directory: /home/shubhang/ELD/test/test.runs/cordic_0_synth_1
+# Command line: vivado -log cordic_0.vds -mode batch -messageDb vivado.pb -notrace -source cordic_0.tcl
+# Log file: /home/shubhang/ELD/test/test.runs/cordic_0_synth_1/cordic_0.vds
+# Journal file: /home/shubhang/ELD/test/test.runs/cordic_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source cordic_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2015.4/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'cordic_0' generated file not found '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_0.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'cordic_0' generated file not found '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_0_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'cordic_0' generated file not found '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_0_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'cordic_0' generated file not found '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_0_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'cordic_0' generated file not found '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_0_sim_netlist.vhdl'. Please regenerate to continue.
+Command: synth_design -top cordic_0 -part xc7a35tcpg236-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-1223] The version limit for your license is '2016.11' and will expire in -322 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:01:21 . Memory (MB): peak = 1065.898 ; gain = 208.246 ; free physical = 1599 ; free virtual = 12580
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'cordic_0' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/synth/cordic_0.vhd:69]
+INFO: [Synth 8-3491] module 'cordic_v6_0_9' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0.vhd:116' bound to instance 'U0' of component 'cordic_v6_0_9' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/synth/cordic_0.vhd:140]
+INFO: [Synth 8-638] synthesizing module 'cordic_v6_0_9' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0.vhd:173]
+INFO: [Synth 8-3491] module 'cordic_v6_0_9_viv' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:9450' bound to instance 'i_synth' of component 'cordic_v6_0_9_viv' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0.vhd:179]
+INFO: [Synth 8-638] synthesizing module 'cordic_v6_0_9_viv' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:9518]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:2073]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:2077]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:2081]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:2085]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:2089]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:2093]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:2114]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:2123]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:2127]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:2131]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:2135]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:2151]
+INFO: [Synth 8-3919] null assignment ignored [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:9718]
+INFO: [Synth 8-3919] null assignment ignored [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:9719]
+INFO: [Synth 8-3919] null assignment ignored [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:9723]
+INFO: [Synth 8-3919] null assignment ignored [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:9750]
+INFO: [Synth 8-3491] module 'xbip_pipe_v3_0_1_viv' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/xbip_pipe_v3_0_1/hdl/xbip_pipe_v3_0_vh_rfs.vhd:284' bound to instance 'i_nd_to_rdy' of component 'xbip_pipe_v3_0_1_viv' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:9910]
+INFO: [Synth 8-638] synthesizing module 'xbip_pipe_v3_0_1_viv' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/xbip_pipe_v3_0_1/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:594]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:597]
+INFO: [Synth 8-256] done synthesizing module 'xbip_pipe_v3_0_1_viv' (1#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/xbip_pipe_v3_0_1/hdl/xbip_pipe_v3_0_vh_rfs.vhd:309]
+INFO: [Synth 8-3491] module 'cordic_v6_0_9_synth' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8990' bound to instance 'i_synth' of component 'cordic_v6_0_9_synth' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:9997]
+INFO: [Synth 8-638] synthesizing module 'cordic_v6_0_9_synth' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:9038]
+INFO: [Synth 8-3491] module 'cordic_sqrt' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8524' bound to instance 'square_root' of component 'cordic_sqrt' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:9295]
+INFO: [Synth 8-638] synthesizing module 'cordic_sqrt' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8551]
+INFO: [Synth 8-3491] module 'delay' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3525' bound to instance 'gen_data_in_int' of component 'delay' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8695]
+INFO: [Synth 8-638] synthesizing module 'delay' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-256] done synthesizing module 'delay' (2#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-3491] module 'delay_bit' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:4040' bound to instance 'gen_nd_int' of component 'delay_bit' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8708]
+INFO: [Synth 8-638] synthesizing module 'delay_bit' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:4061]
+INFO: [Synth 8-256] done synthesizing module 'delay_bit' (3#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:4061]
+INFO: [Synth 8-3491] module 'delay_bit' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:4040' bound to instance 'gen_rdy_int' of component 'delay_bit' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8722]
+INFO: [Synth 8-638] synthesizing module 'delay_bit__parameterized1' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:4061]
+INFO: [Synth 8-256] done synthesizing module 'delay_bit__parameterized1' (3#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:4061]
+INFO: [Synth 8-3491] module 'cordic_sqrt_mod' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8344' bound to instance 'gen_rem' of component 'cordic_sqrt_mod' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8799]
+INFO: [Synth 8-638] synthesizing module 'cordic_sqrt_mod' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8364]
+INFO: [Synth 8-3491] module 'addsub' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3372' bound to instance 'gen_rem_inc' of component 'addsub' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8391]
+INFO: [Synth 8-638] synthesizing module 'addsub' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3395]
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_8_viv' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:6457' bound to instance 'inst' of component 'c_addsub_v12_0_8_viv' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3403]
+INFO: [Synth 8-638] synthesizing module 'c_addsub_v12_0_8_viv' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:6515]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1036]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1039]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1042]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1045]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1048]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1051]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1054]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1057]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1061]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1065]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1068]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1071]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1074]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1077]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1080]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1084]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1089]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1091]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1093]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1096]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1098]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1101]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1106]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1108]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1110]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1112]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1114]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1131]
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_8_legacy' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5542' bound to instance 'i_baseblox_addsub' of component 'c_addsub_v12_0_8_legacy' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:6636]
+INFO: [Synth 8-638] synthesizing module 'c_addsub_v12_0_8_legacy' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5618]
+WARNING: [Synth 8-5639] ignoring null variable initialization [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:592]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:594]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:597]
+WARNING: [Synth 8-5639] ignoring null variable initialization [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:592]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:594]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:597]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1840]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1843]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1847]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1850]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1853]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1856]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1859]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1862]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1865]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1868]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1871]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1874]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1877]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1880]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1883]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1886]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1889]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1892]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1895]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1898]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1901]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1904]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1907]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1910]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1913]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1916]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1919]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1922]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1925]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1928]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1931]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1934]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1939]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1944]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1947]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1952]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1961]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1965]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1982]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1985]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1988]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:2008]
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_8_fabric_legacy' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5278' bound to instance 'the_addsub' of component 'c_addsub_v12_0_8_fabric_legacy' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5909]
+INFO: [Synth 8-638] synthesizing module 'c_addsub_v12_0_8_fabric_legacy' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5330]
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_8_lut6_legacy' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:2291' bound to instance 'i_lut6_addsub' of component 'c_addsub_v12_0_8_lut6_legacy' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5347]
+INFO: [Synth 8-638] synthesizing module 'c_addsub_v12_0_8_lut6_legacy' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:2343]
+WARNING: [Synth 8-5639] ignoring null variable initialization [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:592]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:594]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:597]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:2386]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:2390]
+INFO: [Synth 8-113] binding component instance 'carrymux0' to cell 'MUXCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3264]
+INFO: [Synth 8-113] binding component instance 'carryxor0' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3272]
+INFO: [Synth 8-113] binding component instance 'carryxortop' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3284]
+INFO: [Synth 8-113] binding component instance 'carrymux' to cell 'MUXCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3306]
+INFO: [Synth 8-113] binding component instance 'carryxor' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3314]
+INFO: [Synth 8-113] binding component instance 'carrymux' to cell 'MUXCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3306]
+INFO: [Synth 8-113] binding component instance 'carryxor' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3314]
+INFO: [Synth 8-113] binding component instance 'carrymux' to cell 'MUXCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3306]
+INFO: [Synth 8-113] binding component instance 'carryxor' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3314]
+INFO: [Synth 8-113] binding component instance 'carrymux' to cell 'MUXCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3306]
+INFO: [Synth 8-113] binding component instance 'carryxor' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3314]
+INFO: [Synth 8-113] binding component instance 'carrymux' to cell 'MUXCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3306]
+INFO: [Synth 8-113] binding component instance 'carryxor' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3314]
+INFO: [Synth 8-113] binding component instance 'carrymux' to cell 'MUXCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3306]
+INFO: [Synth 8-113] binding component instance 'carryxor' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3314]
+INFO: [Synth 8-113] binding component instance 'carrymux' to cell 'MUXCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3306]
+INFO: [Synth 8-113] binding component instance 'carryxor' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3314]
+INFO: [Synth 8-113] binding component instance 'carrymux' to cell 'MUXCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3306]
+INFO: [Synth 8-113] binding component instance 'carryxor' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3314]
+INFO: [Synth 8-256] done synthesizing module 'c_addsub_v12_0_8_lut6_legacy' (4#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:2343]
+INFO: [Synth 8-256] done synthesizing module 'c_addsub_v12_0_8_fabric_legacy' (5#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5330]
+INFO: [Synth 8-256] done synthesizing module 'c_addsub_v12_0_8_legacy' (6#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5618]
+INFO: [Synth 8-256] done synthesizing module 'c_addsub_v12_0_8_viv' (7#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:6515]
+INFO: [Synth 8-256] done synthesizing module 'addsub' (8#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3395]
+INFO: [Synth 8-3491] module 'delay' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3525' bound to instance 'gen_inv_sqrt_out' of component 'delay' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8411]
+INFO: [Synth 8-638] synthesizing module 'delay__parameterized1' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-256] done synthesizing module 'delay__parameterized1' (8#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-3491] module 'delay' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3525' bound to instance 'gen_rem_out' of component 'delay' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8429]
+INFO: [Synth 8-638] synthesizing module 'delay__parameterized3' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-256] done synthesizing module 'delay__parameterized3' (8#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-3491] module 'delay' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3525' bound to instance 'gen_data_int' of component 'delay' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8444]
+INFO: [Synth 8-638] synthesizing module 'delay__parameterized5' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-256] done synthesizing module 'delay__parameterized5' (8#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-256] done synthesizing module 'cordic_sqrt_mod' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8364]
+INFO: [Synth 8-3491] module 'cordic_sqrt_mod' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8344' bound to instance 'gen_rem' of component 'cordic_sqrt_mod' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8821]
+INFO: [Synth 8-638] synthesizing module 'cordic_sqrt_mod__parameterized1' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8364]
+INFO: [Synth 8-3491] module 'addsub' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3372' bound to instance 'gen_rem_inc' of component 'addsub' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8391]
+INFO: [Synth 8-638] synthesizing module 'addsub__parameterized1' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3395]
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_8_viv' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:6457' bound to instance 'inst' of component 'c_addsub_v12_0_8_viv' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3403]
+INFO: [Synth 8-638] synthesizing module 'c_addsub_v12_0_8_viv__parameterized1' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:6515]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1036]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1039]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1042]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1045]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1048]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1051]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1054]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:1057]
+INFO: [Common 17-14] Message 'Synth 8-312' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_8_legacy' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5542' bound to instance 'i_baseblox_addsub' of component 'c_addsub_v12_0_8_legacy' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:6636]
+INFO: [Synth 8-638] synthesizing module 'c_addsub_v12_0_8_legacy__parameterized1' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5618]
+WARNING: [Synth 8-5639] ignoring null variable initialization [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:592]
+WARNING: [Synth 8-5639] ignoring null variable initialization [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:592]
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_8_fabric_legacy' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5278' bound to instance 'the_addsub' of component 'c_addsub_v12_0_8_fabric_legacy' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5909]
+INFO: [Synth 8-638] synthesizing module 'c_addsub_v12_0_8_fabric_legacy__parameterized1' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5330]
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_8_lut6_legacy' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:2291' bound to instance 'i_lut6_addsub' of component 'c_addsub_v12_0_8_lut6_legacy' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5347]
+INFO: [Synth 8-638] synthesizing module 'c_addsub_v12_0_8_lut6_legacy__parameterized1' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:2343]
+WARNING: [Synth 8-5639] ignoring null variable initialization [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:592]
+INFO: [Synth 8-113] binding component instance 'carrymux0' to cell 'MUXCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3264]
+INFO: [Synth 8-113] binding component instance 'carryxor0' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3272]
+INFO: [Synth 8-113] binding component instance 'carryxortop' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3284]
+INFO: [Synth 8-113] binding component instance 'carrymux' to cell 'MUXCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3306]
+INFO: [Synth 8-113] binding component instance 'carryxor' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3314]
+INFO: [Synth 8-113] binding component instance 'carrymux' to cell 'MUXCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3306]
+INFO: [Synth 8-113] binding component instance 'carryxor' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3314]
+INFO: [Synth 8-113] binding component instance 'carrymux' to cell 'MUXCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3306]
+INFO: [Synth 8-113] binding component instance 'carryxor' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3314]
+INFO: [Synth 8-113] binding component instance 'carrymux' to cell 'MUXCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3306]
+INFO: [Synth 8-113] binding component instance 'carryxor' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3314]
+INFO: [Synth 8-113] binding component instance 'carrymux' to cell 'MUXCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3306]
+INFO: [Synth 8-113] binding component instance 'carryxor' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3314]
+INFO: [Synth 8-113] binding component instance 'carrymux' to cell 'MUXCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3306]
+INFO: [Synth 8-113] binding component instance 'carryxor' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3314]
+INFO: [Synth 8-113] binding component instance 'carrymux' to cell 'MUXCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3306]
+INFO: [Synth 8-113] binding component instance 'carryxor' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3314]
+INFO: [Synth 8-113] binding component instance 'carrymux' to cell 'MUXCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3306]
+INFO: [Synth 8-113] binding component instance 'carryxor' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3314]
+INFO: [Synth 8-113] binding component instance 'carrymux' to cell 'MUXCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3306]
+INFO: [Synth 8-113] binding component instance 'carryxor' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3314]
+INFO: [Synth 8-256] done synthesizing module 'c_addsub_v12_0_8_lut6_legacy__parameterized1' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:2343]
+INFO: [Synth 8-256] done synthesizing module 'c_addsub_v12_0_8_fabric_legacy__parameterized1' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5330]
+INFO: [Synth 8-256] done synthesizing module 'c_addsub_v12_0_8_legacy__parameterized1' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5618]
+INFO: [Synth 8-256] done synthesizing module 'c_addsub_v12_0_8_viv__parameterized1' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:6515]
+INFO: [Synth 8-256] done synthesizing module 'addsub__parameterized1' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3395]
+INFO: [Synth 8-3491] module 'delay' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3525' bound to instance 'gen_inv_sqrt_out' of component 'delay' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8411]
+INFO: [Synth 8-638] synthesizing module 'delay__parameterized7' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-256] done synthesizing module 'delay__parameterized7' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-3491] module 'delay' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3525' bound to instance 'gen_rem_out' of component 'delay' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8429]
+INFO: [Synth 8-638] synthesizing module 'delay__parameterized9' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-256] done synthesizing module 'delay__parameterized9' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-3491] module 'delay' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3525' bound to instance 'gen_data_int' of component 'delay' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8444]
+INFO: [Synth 8-638] synthesizing module 'delay__parameterized11' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-256] done synthesizing module 'delay__parameterized11' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-256] done synthesizing module 'cordic_sqrt_mod__parameterized1' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8364]
+INFO: [Synth 8-3491] module 'cordic_sqrt_mod' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8344' bound to instance 'gen_rem' of component 'cordic_sqrt_mod' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8799]
+INFO: [Synth 8-638] synthesizing module 'cordic_sqrt_mod__parameterized3' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8364]
+INFO: [Synth 8-3491] module 'addsub' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3372' bound to instance 'gen_rem_inc' of component 'addsub' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8391]
+INFO: [Synth 8-638] synthesizing module 'addsub__parameterized3' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3395]
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_8_viv' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:6457' bound to instance 'inst' of component 'c_addsub_v12_0_8_viv' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3403]
+INFO: [Synth 8-638] synthesizing module 'c_addsub_v12_0_8_viv__parameterized3' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:6515]
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_8_legacy' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5542' bound to instance 'i_baseblox_addsub' of component 'c_addsub_v12_0_8_legacy' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:6636]
+INFO: [Synth 8-638] synthesizing module 'c_addsub_v12_0_8_legacy__parameterized3' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5618]
+WARNING: [Synth 8-5639] ignoring null variable initialization [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:592]
+WARNING: [Synth 8-5639] ignoring null variable initialization [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:592]
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_8_fabric_legacy' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5278' bound to instance 'the_addsub' of component 'c_addsub_v12_0_8_fabric_legacy' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5909]
+INFO: [Synth 8-638] synthesizing module 'c_addsub_v12_0_8_fabric_legacy__parameterized3' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5330]
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_8_lut6_legacy' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:2291' bound to instance 'i_lut6_addsub' of component 'c_addsub_v12_0_8_lut6_legacy' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5347]
+INFO: [Synth 8-638] synthesizing module 'c_addsub_v12_0_8_lut6_legacy__parameterized3' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:2343]
+WARNING: [Synth 8-5639] ignoring null variable initialization [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:592]
+INFO: [Synth 8-113] binding component instance 'carrymux0' to cell 'MUXCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3264]
+INFO: [Synth 8-113] binding component instance 'carryxor0' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3272]
+INFO: [Synth 8-113] binding component instance 'carryxortop' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3284]
+INFO: [Synth 8-113] binding component instance 'carrymux' to cell 'MUXCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3306]
+INFO: [Synth 8-113] binding component instance 'carryxor' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3314]
+INFO: [Synth 8-113] binding component instance 'carrymux' to cell 'MUXCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3306]
+INFO: [Synth 8-113] binding component instance 'carryxor' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3314]
+INFO: [Synth 8-113] binding component instance 'carrymux' to cell 'MUXCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3306]
+INFO: [Synth 8-113] binding component instance 'carryxor' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3314]
+INFO: [Synth 8-113] binding component instance 'carrymux' to cell 'MUXCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3306]
+INFO: [Synth 8-113] binding component instance 'carryxor' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3314]
+INFO: [Synth 8-113] binding component instance 'carrymux' to cell 'MUXCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3306]
+INFO: [Synth 8-113] binding component instance 'carryxor' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3314]
+INFO: [Synth 8-113] binding component instance 'carrymux' to cell 'MUXCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3306]
+INFO: [Synth 8-113] binding component instance 'carryxor' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3314]
+INFO: [Synth 8-113] binding component instance 'carrymux' to cell 'MUXCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3306]
+INFO: [Synth 8-113] binding component instance 'carryxor' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3314]
+INFO: [Synth 8-256] done synthesizing module 'c_addsub_v12_0_8_lut6_legacy__parameterized3' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:2343]
+INFO: [Synth 8-256] done synthesizing module 'c_addsub_v12_0_8_fabric_legacy__parameterized3' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5330]
+INFO: [Synth 8-256] done synthesizing module 'c_addsub_v12_0_8_legacy__parameterized3' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5618]
+INFO: [Synth 8-256] done synthesizing module 'c_addsub_v12_0_8_viv__parameterized3' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:6515]
+INFO: [Synth 8-256] done synthesizing module 'addsub__parameterized3' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3395]
+INFO: [Synth 8-3491] module 'delay' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3525' bound to instance 'gen_inv_sqrt_out' of component 'delay' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8411]
+INFO: [Synth 8-638] synthesizing module 'delay__parameterized13' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-256] done synthesizing module 'delay__parameterized13' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-3491] module 'delay' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3525' bound to instance 'gen_rem_out' of component 'delay' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8429]
+INFO: [Synth 8-638] synthesizing module 'delay__parameterized15' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-256] done synthesizing module 'delay__parameterized15' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-3491] module 'delay' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3525' bound to instance 'gen_data_int' of component 'delay' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8444]
+INFO: [Synth 8-638] synthesizing module 'delay__parameterized17' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-256] done synthesizing module 'delay__parameterized17' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-256] done synthesizing module 'cordic_sqrt_mod__parameterized3' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8364]
+INFO: [Synth 8-3491] module 'cordic_sqrt_mod' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8344' bound to instance 'gen_rem' of component 'cordic_sqrt_mod' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8821]
+INFO: [Synth 8-638] synthesizing module 'cordic_sqrt_mod__parameterized5' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8364]
+INFO: [Synth 8-3491] module 'addsub' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3372' bound to instance 'gen_rem_inc' of component 'addsub' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8391]
+INFO: [Synth 8-638] synthesizing module 'addsub__parameterized5' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3395]
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_8_viv' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:6457' bound to instance 'inst' of component 'c_addsub_v12_0_8_viv' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3403]
+INFO: [Synth 8-638] synthesizing module 'c_addsub_v12_0_8_viv__parameterized5' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:6515]
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_8_legacy' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5542' bound to instance 'i_baseblox_addsub' of component 'c_addsub_v12_0_8_legacy' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:6636]
+INFO: [Synth 8-638] synthesizing module 'c_addsub_v12_0_8_legacy__parameterized5' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5618]
+WARNING: [Synth 8-5639] ignoring null variable initialization [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:592]
+WARNING: [Synth 8-5639] ignoring null variable initialization [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:592]
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_8_fabric_legacy' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5278' bound to instance 'the_addsub' of component 'c_addsub_v12_0_8_fabric_legacy' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5909]
+INFO: [Synth 8-638] synthesizing module 'c_addsub_v12_0_8_fabric_legacy__parameterized5' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5330]
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_8_lut6_legacy' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:2291' bound to instance 'i_lut6_addsub' of component 'c_addsub_v12_0_8_lut6_legacy' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5347]
+INFO: [Synth 8-638] synthesizing module 'c_addsub_v12_0_8_lut6_legacy__parameterized5' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:2343]
+WARNING: [Synth 8-5639] ignoring null variable initialization [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:592]
+INFO: [Synth 8-113] binding component instance 'carrymux0' to cell 'MUXCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3264]
+INFO: [Synth 8-113] binding component instance 'carryxor0' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3272]
+INFO: [Synth 8-113] binding component instance 'carryxortop' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3284]
+INFO: [Synth 8-113] binding component instance 'carrymux' to cell 'MUXCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3306]
+INFO: [Synth 8-113] binding component instance 'carryxor' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3314]
+INFO: [Synth 8-113] binding component instance 'carrymux' to cell 'MUXCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3306]
+INFO: [Synth 8-113] binding component instance 'carryxor' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3314]
+INFO: [Synth 8-113] binding component instance 'carrymux' to cell 'MUXCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3306]
+INFO: [Synth 8-113] binding component instance 'carryxor' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3314]
+INFO: [Synth 8-113] binding component instance 'carrymux' to cell 'MUXCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3306]
+INFO: [Synth 8-113] binding component instance 'carryxor' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3314]
+INFO: [Synth 8-113] binding component instance 'carrymux' to cell 'MUXCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3306]
+INFO: [Synth 8-113] binding component instance 'carryxor' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3314]
+INFO: [Synth 8-113] binding component instance 'carrymux' to cell 'MUXCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3306]
+INFO: [Synth 8-113] binding component instance 'carryxor' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3314]
+INFO: [Synth 8-113] binding component instance 'carrymux' to cell 'MUXCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3306]
+INFO: [Synth 8-113] binding component instance 'carryxor' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3314]
+INFO: [Synth 8-113] binding component instance 'carrymux' to cell 'MUXCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3306]
+INFO: [Synth 8-113] binding component instance 'carryxor' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3314]
+INFO: [Synth 8-113] binding component instance 'carrymux' to cell 'MUXCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3306]
+INFO: [Synth 8-113] binding component instance 'carryxor' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3314]
+INFO: [Synth 8-113] binding component instance 'carrymux' to cell 'MUXCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3306]
+INFO: [Synth 8-113] binding component instance 'carryxor' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3314]
+INFO: [Synth 8-256] done synthesizing module 'c_addsub_v12_0_8_lut6_legacy__parameterized5' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:2343]
+INFO: [Synth 8-256] done synthesizing module 'c_addsub_v12_0_8_fabric_legacy__parameterized5' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5330]
+INFO: [Synth 8-256] done synthesizing module 'c_addsub_v12_0_8_legacy__parameterized5' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5618]
+INFO: [Synth 8-256] done synthesizing module 'c_addsub_v12_0_8_viv__parameterized5' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:6515]
+INFO: [Synth 8-256] done synthesizing module 'addsub__parameterized5' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3395]
+INFO: [Synth 8-3491] module 'delay' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3525' bound to instance 'gen_inv_sqrt_out' of component 'delay' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8411]
+INFO: [Synth 8-638] synthesizing module 'delay__parameterized19' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-256] done synthesizing module 'delay__parameterized19' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-3491] module 'delay' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3525' bound to instance 'gen_rem_out' of component 'delay' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8429]
+INFO: [Synth 8-638] synthesizing module 'delay__parameterized21' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-256] done synthesizing module 'delay__parameterized21' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-3491] module 'delay' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3525' bound to instance 'gen_data_int' of component 'delay' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8444]
+INFO: [Synth 8-638] synthesizing module 'delay__parameterized23' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-256] done synthesizing module 'delay__parameterized23' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-256] done synthesizing module 'cordic_sqrt_mod__parameterized5' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8364]
+INFO: [Synth 8-3491] module 'cordic_sqrt_mod' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8344' bound to instance 'gen_rem' of component 'cordic_sqrt_mod' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8799]
+INFO: [Synth 8-638] synthesizing module 'cordic_sqrt_mod__parameterized7' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8364]
+INFO: [Synth 8-3491] module 'addsub' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3372' bound to instance 'gen_rem_inc' of component 'addsub' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8391]
+INFO: [Synth 8-638] synthesizing module 'addsub__parameterized7' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3395]
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_8_viv' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:6457' bound to instance 'inst' of component 'c_addsub_v12_0_8_viv' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3403]
+INFO: [Synth 8-638] synthesizing module 'c_addsub_v12_0_8_viv__parameterized7' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:6515]
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_8_legacy' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5542' bound to instance 'i_baseblox_addsub' of component 'c_addsub_v12_0_8_legacy' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:6636]
+INFO: [Synth 8-638] synthesizing module 'c_addsub_v12_0_8_legacy__parameterized7' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5618]
+WARNING: [Synth 8-5639] ignoring null variable initialization [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:592]
+WARNING: [Synth 8-5639] ignoring null variable initialization [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:592]
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_8_fabric_legacy' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5278' bound to instance 'the_addsub' of component 'c_addsub_v12_0_8_fabric_legacy' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5909]
+INFO: [Synth 8-638] synthesizing module 'c_addsub_v12_0_8_fabric_legacy__parameterized7' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5330]
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_8_lut6_legacy' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:2291' bound to instance 'i_lut6_addsub' of component 'c_addsub_v12_0_8_lut6_legacy' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5347]
+INFO: [Synth 8-638] synthesizing module 'c_addsub_v12_0_8_lut6_legacy__parameterized7' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:2343]
+WARNING: [Synth 8-5639] ignoring null variable initialization [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:592]
+INFO: [Synth 8-113] binding component instance 'carrymux0' to cell 'MUXCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3264]
+INFO: [Synth 8-113] binding component instance 'carryxor0' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3272]
+INFO: [Synth 8-113] binding component instance 'carryxortop' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3284]
+INFO: [Synth 8-113] binding component instance 'carrymux' to cell 'MUXCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3306]
+INFO: [Synth 8-113] binding component instance 'carryxor' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3314]
+INFO: [Synth 8-113] binding component instance 'carrymux' to cell 'MUXCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3306]
+INFO: [Synth 8-113] binding component instance 'carryxor' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3314]
+INFO: [Synth 8-113] binding component instance 'carrymux' to cell 'MUXCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3306]
+INFO: [Synth 8-113] binding component instance 'carryxor' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3314]
+INFO: [Synth 8-113] binding component instance 'carrymux' to cell 'MUXCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3306]
+INFO: [Synth 8-113] binding component instance 'carryxor' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3314]
+INFO: [Synth 8-113] binding component instance 'carrymux' to cell 'MUXCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3306]
+INFO: [Synth 8-113] binding component instance 'carryxor' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3314]
+INFO: [Synth 8-113] binding component instance 'carrymux' to cell 'MUXCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3306]
+INFO: [Synth 8-113] binding component instance 'carryxor' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3314]
+INFO: [Synth 8-256] done synthesizing module 'c_addsub_v12_0_8_lut6_legacy__parameterized7' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:2343]
+INFO: [Synth 8-256] done synthesizing module 'c_addsub_v12_0_8_fabric_legacy__parameterized7' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5330]
+INFO: [Synth 8-256] done synthesizing module 'c_addsub_v12_0_8_legacy__parameterized7' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5618]
+INFO: [Synth 8-256] done synthesizing module 'c_addsub_v12_0_8_viv__parameterized7' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:6515]
+INFO: [Synth 8-256] done synthesizing module 'addsub__parameterized7' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3395]
+INFO: [Synth 8-3491] module 'delay' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3525' bound to instance 'gen_inv_sqrt_out' of component 'delay' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8411]
+INFO: [Synth 8-638] synthesizing module 'delay__parameterized25' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-256] done synthesizing module 'delay__parameterized25' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-3491] module 'delay' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3525' bound to instance 'gen_rem_out' of component 'delay' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8429]
+INFO: [Synth 8-638] synthesizing module 'delay__parameterized27' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-256] done synthesizing module 'delay__parameterized27' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-3491] module 'delay' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3525' bound to instance 'gen_data_int' of component 'delay' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8444]
+INFO: [Synth 8-638] synthesizing module 'delay__parameterized29' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-256] done synthesizing module 'delay__parameterized29' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-256] done synthesizing module 'cordic_sqrt_mod__parameterized7' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8364]
+INFO: [Synth 8-3491] module 'cordic_sqrt_mod' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8344' bound to instance 'gen_rem' of component 'cordic_sqrt_mod' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8821]
+INFO: [Synth 8-638] synthesizing module 'cordic_sqrt_mod__parameterized9' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8364]
+INFO: [Synth 8-3491] module 'addsub' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3372' bound to instance 'gen_rem_inc' of component 'addsub' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8391]
+INFO: [Synth 8-638] synthesizing module 'addsub__parameterized9' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3395]
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_8_viv' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:6457' bound to instance 'inst' of component 'c_addsub_v12_0_8_viv' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3403]
+INFO: [Synth 8-638] synthesizing module 'c_addsub_v12_0_8_viv__parameterized9' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:6515]
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_8_legacy' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5542' bound to instance 'i_baseblox_addsub' of component 'c_addsub_v12_0_8_legacy' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:6636]
+INFO: [Synth 8-638] synthesizing module 'c_addsub_v12_0_8_legacy__parameterized9' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5618]
+WARNING: [Synth 8-5639] ignoring null variable initialization [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:592]
+WARNING: [Synth 8-5639] ignoring null variable initialization [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:592]
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_8_fabric_legacy' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5278' bound to instance 'the_addsub' of component 'c_addsub_v12_0_8_fabric_legacy' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5909]
+INFO: [Synth 8-638] synthesizing module 'c_addsub_v12_0_8_fabric_legacy__parameterized9' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5330]
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_8_lut6_legacy' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:2291' bound to instance 'i_lut6_addsub' of component 'c_addsub_v12_0_8_lut6_legacy' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5347]
+INFO: [Synth 8-638] synthesizing module 'c_addsub_v12_0_8_lut6_legacy__parameterized9' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:2343]
+WARNING: [Synth 8-5639] ignoring null variable initialization [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:592]
+INFO: [Synth 8-113] binding component instance 'carrymux0' to cell 'MUXCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3264]
+INFO: [Synth 8-113] binding component instance 'carryxor0' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3272]
+INFO: [Synth 8-113] binding component instance 'carryxortop' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3284]
+INFO: [Synth 8-113] binding component instance 'carrymux' to cell 'MUXCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3306]
+INFO: [Synth 8-113] binding component instance 'carryxor' to cell 'XORCY' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:3314]
+INFO: [Common 17-14] Message 'Synth 8-113' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-256] done synthesizing module 'c_addsub_v12_0_8_lut6_legacy__parameterized9' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:2343]
+INFO: [Synth 8-256] done synthesizing module 'c_addsub_v12_0_8_fabric_legacy__parameterized9' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5330]
+INFO: [Synth 8-256] done synthesizing module 'c_addsub_v12_0_8_legacy__parameterized9' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5618]
+INFO: [Synth 8-256] done synthesizing module 'c_addsub_v12_0_8_viv__parameterized9' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:6515]
+INFO: [Synth 8-256] done synthesizing module 'addsub__parameterized9' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3395]
+INFO: [Synth 8-3491] module 'delay' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3525' bound to instance 'gen_inv_sqrt_out' of component 'delay' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8411]
+INFO: [Synth 8-638] synthesizing module 'delay__parameterized31' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-256] done synthesizing module 'delay__parameterized31' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-3491] module 'delay' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3525' bound to instance 'gen_rem_out' of component 'delay' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8429]
+INFO: [Synth 8-638] synthesizing module 'delay__parameterized33' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-256] done synthesizing module 'delay__parameterized33' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-3491] module 'delay' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3525' bound to instance 'gen_data_int' of component 'delay' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8444]
+INFO: [Synth 8-638] synthesizing module 'delay__parameterized35' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-256] done synthesizing module 'delay__parameterized35' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-256] done synthesizing module 'cordic_sqrt_mod__parameterized9' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8364]
+INFO: [Synth 8-3491] module 'cordic_sqrt_mod' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8344' bound to instance 'gen_rem' of component 'cordic_sqrt_mod' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8799]
+INFO: [Synth 8-638] synthesizing module 'cordic_sqrt_mod__parameterized11' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8364]
+INFO: [Synth 8-3491] module 'addsub' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3372' bound to instance 'gen_rem_inc' of component 'addsub' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8391]
+INFO: [Synth 8-638] synthesizing module 'addsub__parameterized11' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3395]
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_8_viv' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:6457' bound to instance 'inst' of component 'c_addsub_v12_0_8_viv' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3403]
+INFO: [Synth 8-638] synthesizing module 'c_addsub_v12_0_8_viv__parameterized11' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:6515]
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_8_legacy' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5542' bound to instance 'i_baseblox_addsub' of component 'c_addsub_v12_0_8_legacy' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:6636]
+INFO: [Synth 8-638] synthesizing module 'c_addsub_v12_0_8_legacy__parameterized11' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5618]
+WARNING: [Synth 8-5639] ignoring null variable initialization [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:592]
+WARNING: [Synth 8-5639] ignoring null variable initialization [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:592]
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_8_fabric_legacy' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5278' bound to instance 'the_addsub' of component 'c_addsub_v12_0_8_fabric_legacy' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5909]
+INFO: [Synth 8-638] synthesizing module 'c_addsub_v12_0_8_fabric_legacy__parameterized11' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5330]
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_8_lut6_legacy' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:2291' bound to instance 'i_lut6_addsub' of component 'c_addsub_v12_0_8_lut6_legacy' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5347]
+INFO: [Synth 8-638] synthesizing module 'c_addsub_v12_0_8_lut6_legacy__parameterized11' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:2343]
+WARNING: [Synth 8-5639] ignoring null variable initialization [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:592]
+INFO: [Synth 8-256] done synthesizing module 'c_addsub_v12_0_8_lut6_legacy__parameterized11' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:2343]
+INFO: [Synth 8-256] done synthesizing module 'c_addsub_v12_0_8_fabric_legacy__parameterized11' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5330]
+INFO: [Synth 8-256] done synthesizing module 'c_addsub_v12_0_8_legacy__parameterized11' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5618]
+INFO: [Synth 8-256] done synthesizing module 'c_addsub_v12_0_8_viv__parameterized11' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:6515]
+INFO: [Synth 8-256] done synthesizing module 'addsub__parameterized11' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3395]
+INFO: [Synth 8-3491] module 'delay' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3525' bound to instance 'gen_inv_sqrt_out' of component 'delay' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8411]
+INFO: [Synth 8-638] synthesizing module 'delay__parameterized37' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-256] done synthesizing module 'delay__parameterized37' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-3491] module 'delay' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3525' bound to instance 'gen_rem_out' of component 'delay' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8429]
+INFO: [Synth 8-638] synthesizing module 'delay__parameterized39' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-256] done synthesizing module 'delay__parameterized39' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-3491] module 'delay' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3525' bound to instance 'gen_data_int' of component 'delay' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8444]
+INFO: [Synth 8-638] synthesizing module 'delay__parameterized41' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-3919] null assignment ignored [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3556]
+INFO: [Synth 8-256] done synthesizing module 'delay__parameterized41' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-256] done synthesizing module 'cordic_sqrt_mod__parameterized11' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8364]
+INFO: [Synth 8-3491] module 'cordic_sqrt_mod' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8344' bound to instance 'gen_rem' of component 'cordic_sqrt_mod' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8821]
+INFO: [Synth 8-638] synthesizing module 'cordic_sqrt_mod__parameterized13' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8364]
+INFO: [Synth 8-3491] module 'addsub' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3372' bound to instance 'gen_rem_inc' of component 'addsub' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8391]
+INFO: [Synth 8-638] synthesizing module 'addsub__parameterized13' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3395]
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_8_viv' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:6457' bound to instance 'inst' of component 'c_addsub_v12_0_8_viv' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3403]
+INFO: [Synth 8-638] synthesizing module 'c_addsub_v12_0_8_viv__parameterized13' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:6515]
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_8_legacy' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5542' bound to instance 'i_baseblox_addsub' of component 'c_addsub_v12_0_8_legacy' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:6636]
+INFO: [Synth 8-638] synthesizing module 'c_addsub_v12_0_8_legacy__parameterized13' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5618]
+WARNING: [Synth 8-5639] ignoring null variable initialization [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:592]
+WARNING: [Synth 8-5639] ignoring null variable initialization [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:592]
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_8_fabric_legacy' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5278' bound to instance 'the_addsub' of component 'c_addsub_v12_0_8_fabric_legacy' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5909]
+INFO: [Synth 8-638] synthesizing module 'c_addsub_v12_0_8_fabric_legacy__parameterized13' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5330]
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_8_lut6_legacy' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:2291' bound to instance 'i_lut6_addsub' of component 'c_addsub_v12_0_8_lut6_legacy' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5347]
+INFO: [Synth 8-638] synthesizing module 'c_addsub_v12_0_8_lut6_legacy__parameterized13' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:2343]
+WARNING: [Synth 8-5639] ignoring null variable initialization [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:592]
+INFO: [Synth 8-256] done synthesizing module 'c_addsub_v12_0_8_lut6_legacy__parameterized13' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:2343]
+INFO: [Synth 8-256] done synthesizing module 'c_addsub_v12_0_8_fabric_legacy__parameterized13' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5330]
+INFO: [Synth 8-256] done synthesizing module 'c_addsub_v12_0_8_legacy__parameterized13' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5618]
+INFO: [Synth 8-256] done synthesizing module 'c_addsub_v12_0_8_viv__parameterized13' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:6515]
+INFO: [Synth 8-256] done synthesizing module 'addsub__parameterized13' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3395]
+INFO: [Synth 8-3491] module 'delay' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3525' bound to instance 'gen_inv_sqrt_out' of component 'delay' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8411]
+INFO: [Synth 8-638] synthesizing module 'delay__parameterized43' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-256] done synthesizing module 'delay__parameterized43' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-3491] module 'delay' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3525' bound to instance 'gen_rem_out' of component 'delay' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8429]
+INFO: [Synth 8-638] synthesizing module 'delay__parameterized45' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-256] done synthesizing module 'delay__parameterized45' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-3491] module 'delay' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3525' bound to instance 'gen_data_int' of component 'delay' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8444]
+INFO: [Synth 8-638] synthesizing module 'delay__parameterized47' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-256] done synthesizing module 'delay__parameterized47' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-256] done synthesizing module 'cordic_sqrt_mod__parameterized13' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8364]
+INFO: [Synth 8-3491] module 'cordic_sqrt_mod' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8344' bound to instance 'gen_rem' of component 'cordic_sqrt_mod' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8843]
+INFO: [Synth 8-638] synthesizing module 'cordic_sqrt_mod__parameterized15' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8364]
+INFO: [Synth 8-3491] module 'addsub' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3372' bound to instance 'gen_rem_inc' of component 'addsub' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8391]
+INFO: [Synth 8-638] synthesizing module 'addsub__parameterized15' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3395]
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_8_viv' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:6457' bound to instance 'inst' of component 'c_addsub_v12_0_8_viv' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3403]
+INFO: [Synth 8-638] synthesizing module 'c_addsub_v12_0_8_viv__parameterized15' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:6515]
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_8_legacy' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5542' bound to instance 'i_baseblox_addsub' of component 'c_addsub_v12_0_8_legacy' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:6636]
+INFO: [Synth 8-638] synthesizing module 'c_addsub_v12_0_8_legacy__parameterized15' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5618]
+WARNING: [Synth 8-5639] ignoring null variable initialization [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:592]
+WARNING: [Synth 8-5639] ignoring null variable initialization [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:592]
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_8_fabric_legacy' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5278' bound to instance 'the_addsub' of component 'c_addsub_v12_0_8_fabric_legacy' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5909]
+INFO: [Synth 8-638] synthesizing module 'c_addsub_v12_0_8_fabric_legacy__parameterized15' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5330]
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_8_lut6_legacy' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:2291' bound to instance 'i_lut6_addsub' of component 'c_addsub_v12_0_8_lut6_legacy' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5347]
+INFO: [Synth 8-638] synthesizing module 'c_addsub_v12_0_8_lut6_legacy__parameterized15' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:2343]
+WARNING: [Synth 8-5639] ignoring null variable initialization [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:592]
+INFO: [Synth 8-256] done synthesizing module 'c_addsub_v12_0_8_lut6_legacy__parameterized15' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:2343]
+INFO: [Synth 8-256] done synthesizing module 'c_addsub_v12_0_8_fabric_legacy__parameterized15' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5330]
+INFO: [Synth 8-256] done synthesizing module 'c_addsub_v12_0_8_legacy__parameterized15' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5618]
+INFO: [Synth 8-256] done synthesizing module 'c_addsub_v12_0_8_viv__parameterized15' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:6515]
+INFO: [Synth 8-256] done synthesizing module 'addsub__parameterized15' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3395]
+INFO: [Synth 8-3491] module 'delay' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3525' bound to instance 'gen_inv_sqrt_out' of component 'delay' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8411]
+INFO: [Synth 8-638] synthesizing module 'delay__parameterized49' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-256] done synthesizing module 'delay__parameterized49' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-3491] module 'delay' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3525' bound to instance 'gen_data_int' of component 'delay' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8444]
+INFO: [Synth 8-638] synthesizing module 'delay__parameterized51' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+INFO: [Synth 8-256] done synthesizing module 'delay__parameterized51' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3546]
+WARNING: [Synth 8-3848] Net rem_out in module/entity cordic_sqrt_mod__parameterized15 does not have driver. [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8357]
+INFO: [Synth 8-256] done synthesizing module 'cordic_sqrt_mod__parameterized15' (9#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8364]
+INFO: [Synth 8-3919] null assignment ignored [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8885]
+INFO: [Synth 8-3491] module 'addsub' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3372' bound to instance 'gen_add' of component 'addsub' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8890]
+INFO: [Synth 8-638] synthesizing module 'addsub__parameterized17' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3395]
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_8_viv' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:6457' bound to instance 'inst' of component 'c_addsub_v12_0_8_viv' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3403]
+INFO: [Synth 8-638] synthesizing module 'c_addsub_v12_0_8_viv__parameterized17' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:6515]
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_8_legacy' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5542' bound to instance 'i_baseblox_addsub' of component 'c_addsub_v12_0_8_legacy' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:6636]
+INFO: [Synth 8-638] synthesizing module 'c_addsub_v12_0_8_legacy__parameterized17' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5618]
+WARNING: [Synth 8-5639] ignoring null variable initialization [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:592]
+WARNING: [Synth 8-5639] ignoring null variable initialization [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:592]
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_8_fabric_legacy' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5278' bound to instance 'the_addsub' of component 'c_addsub_v12_0_8_fabric_legacy' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5909]
+INFO: [Synth 8-638] synthesizing module 'c_addsub_v12_0_8_fabric_legacy__parameterized17' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5330]
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_8_lut6_legacy' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:2291' bound to instance 'i_lut6_addsub' of component 'c_addsub_v12_0_8_lut6_legacy' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5347]
+INFO: [Synth 8-638] synthesizing module 'c_addsub_v12_0_8_lut6_legacy__parameterized17' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:2343]
+WARNING: [Synth 8-5639] ignoring null variable initialization [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:592]
+INFO: [Synth 8-3491] module 'c_reg_fd_v12_0_1_viv' declared at '/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_reg_fd_v12_0_1/hdl/c_reg_fd_v12_0_vh_rfs.vhd:331' bound to instance 'qreg' of component 'c_reg_fd_v12_0_1_viv' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:2940]
+INFO: [Synth 8-638] synthesizing module 'c_reg_fd_v12_0_1_viv' [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_reg_fd_v12_0_1/hdl/c_reg_fd_v12_0_vh_rfs.vhd:361]
+WARNING: [Synth 8-5639] ignoring null variable initialization [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd:592]
+INFO: [Synth 8-256] done synthesizing module 'c_reg_fd_v12_0_1_viv' (10#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_reg_fd_v12_0_1/hdl/c_reg_fd_v12_0_vh_rfs.vhd:361]
+INFO: [Synth 8-256] done synthesizing module 'c_addsub_v12_0_8_lut6_legacy__parameterized17' (10#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:2343]
+INFO: [Synth 8-256] done synthesizing module 'c_addsub_v12_0_8_fabric_legacy__parameterized17' (10#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5330]
+INFO: [Synth 8-256] done synthesizing module 'c_addsub_v12_0_8_legacy__parameterized17' (10#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:5618]
+INFO: [Synth 8-256] done synthesizing module 'c_addsub_v12_0_8_viv__parameterized17' (10#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/c_addsub_v12_0_8/hdl/c_addsub_v12_0_vh_rfs.vhd:6515]
+INFO: [Synth 8-256] done synthesizing module 'addsub__parameterized17' (10#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:3395]
+WARNING: [Synth 8-3848] Net rdy in module/entity cordic_sqrt does not have driver. [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8544]
+INFO: [Synth 8-256] done synthesizing module 'cordic_sqrt' (11#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:8551]
+INFO: [Synth 8-256] done synthesizing module 'cordic_v6_0_9_synth' (12#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:9038]
+INFO: [Synth 8-256] done synthesizing module 'cordic_v6_0_9_viv' (13#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0_vh_rfs.vhd:9518]
+INFO: [Synth 8-256] done synthesizing module 'cordic_v6_0_9' (14#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_v6_0_9/hdl/cordic_v6_0.vhd:173]
+INFO: [Synth 8-256] done synthesizing module 'cordic_0' (15#1) [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/synth/cordic_0.vhd:69]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:31 ; elapsed = 00:01:44 . Memory (MB): peak = 1124.758 ; gain = 267.105 ; free physical = 1529 ; free virtual = 12519
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:31 ; elapsed = 00:01:44 . Memory (MB): peak = 1124.758 ; gain = 267.105 ; free physical = 1528 ; free virtual = 12519
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 212 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_0_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_0_ooc.xdc] for cell 'U0'
+Parsing XDC File [/home/shubhang/ELD/test/test.runs/cordic_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/shubhang/ELD/test/test.runs/cordic_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 1395.781 ; gain = 0.000 ; free physical = 1384 ; free virtual = 12375
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 20315 
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:39 ; elapsed = 00:02:03 . Memory (MB): peak = 1395.781 ; gain = 538.129 ; free physical = 1385 ; free virtual = 12376
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:39 ; elapsed = 00:02:03 . Memory (MB): peak = 1395.781 ; gain = 538.129 ; free physical = 1385 ; free virtual = 12376
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U0. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:39 ; elapsed = 00:02:03 . Memory (MB): peak = 1395.781 ; gain = 538.129 ; free physical = 1385 ; free virtual = 12376
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:40 ; elapsed = 00:02:04 . Memory (MB): peak = 1395.781 ; gain = 538.129 ; free physical = 1380 ; free virtual = 12371
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:40 ; elapsed = 00:02:04 . Memory (MB): peak = 1395.789 ; gain = 538.137 ; free physical = 1380 ; free virtual = 12371
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:40 ; elapsed = 00:02:04 . Memory (MB): peak = 1395.789 ; gain = 538.137 ; free physical = 1374 ; free virtual = 12365
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:40 ; elapsed = 00:02:04 . Memory (MB): peak = 1395.789 ; gain = 538.137 ; free physical = 1374 ; free virtual = 12365
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_nd_int/gen_rtl.gen_reg.d_reg_reg ' (FDRE) to 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_pre_mid.gen_rem/gen_inv_sqrt_out/gen_rtl.gen_reg.d_reg_reg[2] '
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[11].gen_last.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[0][0] ' (FDE) to 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[11].gen_last.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[0][1] '
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[11].gen_last.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[0][1] ' (FDE) to 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[0][0] '
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[0][0] ' (FDE) to 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[0][1] '
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[0][1] )
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_rdy_int/gen_rtl.gen_dly.gen_regs.delay_bus_reg[0] ' (FDRE) to 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[9].gen_pre_mid.gen_rem/gen_inv_sqrt_out/gen_rtl.gen_reg.d_reg_reg[3] '
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[11].gen_last.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[1][0] ' (FDE) to 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[1][1] '
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[11].gen_last.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[1][1] ' (FDE) to 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[1][1] '
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[1][0] ' (FDE) to 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[1][1] '
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[1][1] ' (FDE) to 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[0][1] '
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_rdy_int/gen_rtl.gen_dly.gen_regs.delay_bus_reg[1] ' (FDRE) to 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[8].gen_pre_mid.gen_rem/gen_inv_sqrt_out/gen_rtl.gen_reg.d_reg_reg[4] '
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[11].gen_last.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[2][0] ' (FDE) to 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[2][1] '
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[11].gen_last.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[2][1] ' (FDE) to 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[2][1] '
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[2][0] ' (FDE) to 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[2][1] '
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_rdy_int/gen_rtl.gen_dly.gen_regs.delay_bus_reg[2] ' (FDRE) to 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[7].gen_pre_mid.gen_rem/gen_inv_sqrt_out/gen_rtl.gen_reg.d_reg_reg[5] '
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[11].gen_last.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[3][0] ' (FDE) to 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[3][0] '
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[11].gen_last.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[3][1] ' (FDE) to 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[3][0] '
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[3][0] ' (FDE) to 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[3][1] '
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_rdy_int/gen_rtl.gen_dly.gen_regs.delay_bus_reg[3] ' (FDRE) to 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[7].gen_post_mid.gen_rem/gen_inv_sqrt_out/gen_rtl.gen_reg.d_reg_reg[6] '
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[11].gen_last.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[4][0] ' (FDE) to 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[4][0] '
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[11].gen_last.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[4][1] ' (FDE) to 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[4][0] '
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[4][0] ' (FDE) to 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[4][1] '
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_rdy_int/gen_rtl.gen_dly.gen_regs.delay_bus_reg[4] ' (FDRE) to 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[8].gen_post_mid.gen_rem/gen_inv_sqrt_out/gen_rtl.gen_reg.d_reg_reg[7] '
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[11].gen_last.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[5][0] ' (FDE) to 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[5][0] '
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[11].gen_last.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[5][1] ' (FDE) to 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[5][0] '
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[5][0] ' (FDE) to 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[5][1] '
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_rdy_int/gen_rtl.gen_dly.gen_regs.delay_bus_reg[5] ' (FDRE) to 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[9].gen_post_mid.gen_rem/gen_inv_sqrt_out/gen_rtl.gen_reg.d_reg_reg[8] '
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[11].gen_last.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[6][0] ' (FDE) to 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[6][0] '
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[11].gen_last.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[6][1] ' (FDE) to 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[6][0] '
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[6][0] ' (FDE) to 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[6][1] '
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_rdy_int/gen_rtl.gen_dly.gen_regs.delay_bus_reg[6] ' (FDRE) to 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_inv_sqrt_out/gen_rtl.gen_reg.d_reg_reg[9] '
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[11].gen_last.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[7][0] ' (FDE) to 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[11].gen_last.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[7][1] '
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_rdy_int/gen_rtl.gen_dly.gen_regs.delay_bus_reg[7] ' (FDRE) to 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[11].gen_last.gen_rem/gen_inv_sqrt_out/gen_rtl.gen_reg.d_reg_reg[10] '
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[0][1] )
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[2][1] ' (FDE) to 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[0][1] '
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[0][1] )
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[3][1] ' (FDE) to 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[0][1] '
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[0][1] )
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[4][1] ' (FDE) to 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[0][1] '
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[0][1] )
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[5][1] ' (FDE) to 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[0][1] '
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[0][1] )
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[6][1] ' (FDE) to 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[0][1] '
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[0][1] )
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[11].gen_last.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[7][1] ' (FDE) to 'U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[0][1] '
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/i_synth/\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[0][1] )
+INFO: [Synth 8-3332] Sequential element (\i_synth/gen_sqrt.square_root/gen_nd_int/gen_rtl.gen_reg.d_reg_reg ) is unused and will be removed from module cordic_v6_0_9_viv.
+INFO: [Synth 8-3332] Sequential element (\i_synth/gen_sqrt.square_root/gen_iterations[11].gen_last.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[0][0] ) is unused and will be removed from module cordic_v6_0_9_viv.
+INFO: [Synth 8-3332] Sequential element (\i_synth/gen_sqrt.square_root/gen_iterations[11].gen_last.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[7][0] ) is unused and will be removed from module cordic_v6_0_9_viv.
+INFO: [Synth 8-3332] Sequential element (\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[0][0] ) is unused and will be removed from module cordic_v6_0_9_viv.
+INFO: [Synth 8-3332] Sequential element (\i_synth/gen_sqrt.square_root/gen_iterations[11].gen_last.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[0][1] ) is unused and will be removed from module cordic_v6_0_9_viv.
+INFO: [Synth 8-3332] Sequential element (\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[0][1] ) is unused and will be removed from module cordic_v6_0_9_viv.
+INFO: [Synth 8-3332] Sequential element (\i_synth/gen_sqrt.square_root/gen_rdy_int/gen_rtl.gen_dly.gen_regs.delay_bus_reg[0] ) is unused and will be removed from module cordic_v6_0_9_viv.
+INFO: [Synth 8-3332] Sequential element (\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[1][1] ) is unused and will be removed from module cordic_v6_0_9_viv.
+INFO: [Synth 8-3332] Sequential element (\i_synth/gen_sqrt.square_root/gen_iterations[11].gen_last.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[1][0] ) is unused and will be removed from module cordic_v6_0_9_viv.
+INFO: [Synth 8-3332] Sequential element (\i_synth/gen_sqrt.square_root/gen_iterations[11].gen_last.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[1][1] ) is unused and will be removed from module cordic_v6_0_9_viv.
+INFO: [Synth 8-3332] Sequential element (\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[1][0] ) is unused and will be removed from module cordic_v6_0_9_viv.
+INFO: [Synth 8-3332] Sequential element (\i_synth/gen_sqrt.square_root/gen_rdy_int/gen_rtl.gen_dly.gen_regs.delay_bus_reg[1] ) is unused and will be removed from module cordic_v6_0_9_viv.
+INFO: [Synth 8-3332] Sequential element (\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[2][1] ) is unused and will be removed from module cordic_v6_0_9_viv.
+INFO: [Synth 8-3332] Sequential element (\i_synth/gen_sqrt.square_root/gen_iterations[11].gen_last.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[2][0] ) is unused and will be removed from module cordic_v6_0_9_viv.
+INFO: [Synth 8-3332] Sequential element (\i_synth/gen_sqrt.square_root/gen_iterations[11].gen_last.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[2][1] ) is unused and will be removed from module cordic_v6_0_9_viv.
+INFO: [Synth 8-3332] Sequential element (\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[2][0] ) is unused and will be removed from module cordic_v6_0_9_viv.
+INFO: [Synth 8-3332] Sequential element (\i_synth/gen_sqrt.square_root/gen_rdy_int/gen_rtl.gen_dly.gen_regs.delay_bus_reg[2] ) is unused and will be removed from module cordic_v6_0_9_viv.
+INFO: [Synth 8-3332] Sequential element (\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[3][0] ) is unused and will be removed from module cordic_v6_0_9_viv.
+INFO: [Synth 8-3332] Sequential element (\i_synth/gen_sqrt.square_root/gen_iterations[11].gen_last.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[3][0] ) is unused and will be removed from module cordic_v6_0_9_viv.
+INFO: [Synth 8-3332] Sequential element (\i_synth/gen_sqrt.square_root/gen_iterations[11].gen_last.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[3][1] ) is unused and will be removed from module cordic_v6_0_9_viv.
+INFO: [Synth 8-3332] Sequential element (\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[3][1] ) is unused and will be removed from module cordic_v6_0_9_viv.
+INFO: [Synth 8-3332] Sequential element (\i_synth/gen_sqrt.square_root/gen_rdy_int/gen_rtl.gen_dly.gen_regs.delay_bus_reg[3] ) is unused and will be removed from module cordic_v6_0_9_viv.
+INFO: [Synth 8-3332] Sequential element (\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[4][0] ) is unused and will be removed from module cordic_v6_0_9_viv.
+INFO: [Synth 8-3332] Sequential element (\i_synth/gen_sqrt.square_root/gen_iterations[11].gen_last.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[4][0] ) is unused and will be removed from module cordic_v6_0_9_viv.
+INFO: [Synth 8-3332] Sequential element (\i_synth/gen_sqrt.square_root/gen_iterations[11].gen_last.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[4][1] ) is unused and will be removed from module cordic_v6_0_9_viv.
+INFO: [Synth 8-3332] Sequential element (\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[4][1] ) is unused and will be removed from module cordic_v6_0_9_viv.
+INFO: [Synth 8-3332] Sequential element (\i_synth/gen_sqrt.square_root/gen_rdy_int/gen_rtl.gen_dly.gen_regs.delay_bus_reg[4] ) is unused and will be removed from module cordic_v6_0_9_viv.
+INFO: [Synth 8-3332] Sequential element (\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[5][0] ) is unused and will be removed from module cordic_v6_0_9_viv.
+INFO: [Synth 8-3332] Sequential element (\i_synth/gen_sqrt.square_root/gen_iterations[11].gen_last.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[5][0] ) is unused and will be removed from module cordic_v6_0_9_viv.
+INFO: [Synth 8-3332] Sequential element (\i_synth/gen_sqrt.square_root/gen_iterations[11].gen_last.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[5][1] ) is unused and will be removed from module cordic_v6_0_9_viv.
+INFO: [Synth 8-3332] Sequential element (\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[5][1] ) is unused and will be removed from module cordic_v6_0_9_viv.
+INFO: [Synth 8-3332] Sequential element (\i_synth/gen_sqrt.square_root/gen_rdy_int/gen_rtl.gen_dly.gen_regs.delay_bus_reg[5] ) is unused and will be removed from module cordic_v6_0_9_viv.
+INFO: [Synth 8-3332] Sequential element (\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[6][0] ) is unused and will be removed from module cordic_v6_0_9_viv.
+INFO: [Synth 8-3332] Sequential element (\i_synth/gen_sqrt.square_root/gen_iterations[11].gen_last.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[6][0] ) is unused and will be removed from module cordic_v6_0_9_viv.
+INFO: [Synth 8-3332] Sequential element (\i_synth/gen_sqrt.square_root/gen_iterations[11].gen_last.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[6][1] ) is unused and will be removed from module cordic_v6_0_9_viv.
+INFO: [Synth 8-3332] Sequential element (\i_synth/gen_sqrt.square_root/gen_iterations[10].gen_post_mid.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[6][1] ) is unused and will be removed from module cordic_v6_0_9_viv.
+INFO: [Synth 8-3332] Sequential element (\i_synth/gen_sqrt.square_root/gen_rdy_int/gen_rtl.gen_dly.gen_regs.delay_bus_reg[6] ) is unused and will be removed from module cordic_v6_0_9_viv.
+INFO: [Synth 8-3332] Sequential element (\i_synth/gen_sqrt.square_root/gen_rdy_int/gen_rtl.gen_dly.gen_regs.delay_bus_reg[7] ) is unused and will be removed from module cordic_v6_0_9_viv.
+INFO: [Synth 8-3332] Sequential element (\i_synth/gen_sqrt.square_root/gen_iterations[11].gen_last.gen_rem/gen_data_int/gen_rtl.gen_dly.gen_shiftreg.delay_bus_reg[7][1] ) is unused and will be removed from module cordic_v6_0_9_viv.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:40 ; elapsed = 00:02:04 . Memory (MB): peak = 1395.789 ; gain = 538.137 ; free physical = 1366 ; free virtual = 12357
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:40 ; elapsed = 00:02:04 . Memory (MB): peak = 1395.789 ; gain = 538.137 ; free physical = 1366 ; free virtual = 12357
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:48 ; elapsed = 00:02:12 . Memory (MB): peak = 1395.789 ; gain = 538.137 ; free physical = 1322 ; free virtual = 12305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:48 ; elapsed = 00:02:12 . Memory (MB): peak = 1395.789 ; gain = 538.137 ; free physical = 1322 ; free virtual = 12305
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:48 ; elapsed = 00:02:12 . Memory (MB): peak = 1395.789 ; gain = 538.137 ; free physical = 1303 ; free virtual = 12287
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:48 ; elapsed = 00:02:12 . Memory (MB): peak = 1395.789 ; gain = 538.137 ; free physical = 1303 ; free virtual = 12287
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:48 ; elapsed = 00:02:12 . Memory (MB): peak = 1395.789 ; gain = 538.137 ; free physical = 1303 ; free virtual = 12287
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:49 ; elapsed = 00:02:13 . Memory (MB): peak = 1395.789 ; gain = 538.137 ; free physical = 1303 ; free virtual = 12287
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:49 ; elapsed = 00:02:13 . Memory (MB): peak = 1395.789 ; gain = 538.137 ; free physical = 1303 ; free virtual = 12287
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:49 ; elapsed = 00:02:13 . Memory (MB): peak = 1395.789 ; gain = 538.137 ; free physical = 1303 ; free virtual = 12287
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:49 ; elapsed = 00:02:13 . Memory (MB): peak = 1395.789 ; gain = 538.137 ; free physical = 1303 ; free virtual = 12287
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:49 ; elapsed = 00:02:13 . Memory (MB): peak = 1395.789 ; gain = 538.137 ; free physical = 1303 ; free virtual = 12287
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:49 ; elapsed = 00:02:13 . Memory (MB): peak = 1395.789 ; gain = 538.137 ; free physical = 1303 ; free virtual = 12287
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |LUT1   |     1|
+|2     |LUT2   |   113|
+|3     |LUT3   |    69|
+|4     |LUT4   |     2|
+|5     |MUXCY  |   101|
+|6     |SRL16E |     9|
+|7     |XORCY  |   111|
+|8     |FDRE   |   168|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:49 ; elapsed = 00:02:13 . Memory (MB): peak = 1395.789 ; gain = 538.137 ; free physical = 1303 ; free virtual = 12287
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:43 ; elapsed = 00:00:43 . Memory (MB): peak = 1395.789 ; gain = 131.352 ; free physical = 1303 ; free virtual = 12287
+Synthesis Optimization Complete : Time (s): cpu = 00:00:49 ; elapsed = 00:02:13 . Memory (MB): peak = 1395.789 ; gain = 538.137 ; free physical = 1303 ; free virtual = 12287
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 212 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_0_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/shubhang/ELD/test/test.srcs/sources_1/ip/cordic_0/cordic_0_ooc.xdc] for cell 'U0'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 41 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 41 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+494 Infos, 138 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:48 ; elapsed = 00:02:12 . Memory (MB): peak = 1395.789 ; gain = 460.805 ; free physical = 1303 ; free virtual = 12286
+INFO: [Coretcl 2-1174] Renamed 90 cell refs.
+report_utilization: Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.07 . Memory (MB): peak = 1427.797 ; gain = 0.000 ; free physical = 1302 ; free virtual = 12286
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 18 21:28:39 2017...

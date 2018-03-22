@@ -1,0 +1,130 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4 (lin64) Build 1412921 Wed Nov 18 09:44:32 MST 2015
+| Date         : Fri Nov  3 17:50:49 2017
+| Host         : root running 64-bit elementary OS 0.4.1 Loki
+| Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
+| Design       : top
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |    77 |
+| Minimum Number of register sites lost to control set restrictions |   528 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              40 |           18 |
+| No           | No                    | Yes                    |              26 |           26 |
+| No           | Yes                   | No                     |              24 |           24 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |              30 |           26 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++------------------+-------------------+------------------+------------------+----------------+
+|   Clock Signal   |   Enable Signal   | Set/Reset Signal | Slice Load Count | Bel Load Count |
++------------------+-------------------+------------------+------------------+----------------+
+|  clock_IBUF_BUFG | ysub              | d/ysub_reg[3]_P  |                1 |              1 |
+|  d/xsub_reg[2]_P |                   | d/x_reg[2]_C     |                1 |              1 |
+|  d/xsub_reg[1]_P |                   | d/xsub_reg[1]_C  |                1 |              1 |
+|  d/xsub_reg[1]_P |                   | d/x_reg[1]_C     |                1 |              1 |
+|  d/xsub_reg[0]_P |                   | d/xsub_reg[0]_C  |                1 |              1 |
+|  d/xsub_reg[0]_P |                   | d/x_reg[0]_C     |                1 |              1 |
+|  clock_IBUF_BUFG | ysub              | d/ysub_reg[5]_P  |                1 |              1 |
+|  clock_IBUF_BUFG | ysub              | d/ysub_reg[5]_C  |                1 |              1 |
+|  clock_IBUF_BUFG | ysub              | d/ysub_reg[4]_P  |                1 |              1 |
+|  clock_IBUF_BUFG | ysub              | d/ysub_reg[4]_C  |                1 |              1 |
+|  d/xsub_reg[2]_P |                   | d/xsub_reg[2]_C  |                1 |              1 |
+|  clock_IBUF_BUFG | ysub              | d/ysub_reg[3]_C  |                1 |              1 |
+|  clock_IBUF_BUFG | ysub              | d/ysub_reg[2]_P  |                1 |              1 |
+|  clock_IBUF_BUFG | ysub              | d/ysub_reg[2]_C  |                1 |              1 |
+|  clock_IBUF_BUFG | ysub              | d/ysub_reg[1]_P  |                1 |              1 |
+|  clock_IBUF_BUFG | ysub              | d/ysub_reg[1]_C  |                1 |              1 |
+|  clock_IBUF_BUFG | ysub              | d/ysub_reg[0]_P  |                1 |              1 |
+|  clock_IBUF_BUFG | ysub              | d/ysub_reg[0]_C  |                1 |              1 |
+|  clock_IBUF_BUFG | xsub[5]_C_i_1_n_0 | d/xsub_reg[5]_P  |                1 |              1 |
+|  clock_IBUF_BUFG | xsub[5]_C_i_1_n_0 | d/xsub_reg[5]_C  |                1 |              1 |
+|  d/ysub_reg[1]_P |                   | d/y_reg[1]_C     |                1 |              1 |
+|  d/ysub_reg[5]_P |                   | d/ysub_reg[5]_C  |                1 |              1 |
+|  d/ysub_reg[5]_P |                   | d/y_reg[5]_C     |                1 |              1 |
+|  d/ysub_reg[4]_P |                   | d/ysub_reg[4]_C  |                1 |              1 |
+|  d/ysub_reg[4]_P |                   | d/y_reg[4]_C     |                1 |              1 |
+|  d/ysub_reg[3]_P |                   | d/ysub_reg[3]_C  |                1 |              1 |
+|  d/ysub_reg[3]_P |                   | d/y_reg[3]_C     |                1 |              1 |
+|  d/ysub_reg[2]_P |                   | d/ysub_reg[2]_C  |                1 |              1 |
+|  d/ysub_reg[2]_P |                   | d/y_reg[2]_C     |                1 |              1 |
+|  d/ysub_reg[1]_P |                   | d/ysub_reg[1]_C  |                1 |              1 |
+|  clock_IBUF_BUFG | xsub[5]_C_i_1_n_0 | d/xsub_reg[4]_P  |                1 |              1 |
+|  d/ysub_reg[0]_P |                   | d/ysub_reg[0]_C  |                1 |              1 |
+|  d/ysub_reg[0]_P |                   | d/y_reg[0]_C     |                1 |              1 |
+|  d/xsub_reg[5]_P |                   | d/xsub_reg[5]_C  |                1 |              1 |
+|  d/xsub_reg[5]_P |                   | d/x_reg[5]_C     |                1 |              1 |
+|  d/xsub_reg[4]_P |                   | d/xsub_reg[4]_C  |                1 |              1 |
+|  d/xsub_reg[4]_P |                   | d/x_reg[4]_C     |                1 |              1 |
+|  d/xsub_reg[3]_P |                   | d/xsub_reg[3]_C  |                1 |              1 |
+|  d/xsub_reg[3]_P |                   | d/x_reg[3]_C     |                1 |              1 |
+|  clock_IBUF_BUFG |                   | d/xsub_reg[0]_P  |                1 |              1 |
+|  clock_IBUF_BUFG |                   | d/y_reg[3]_C     |                1 |              1 |
+|  clock_IBUF_BUFG |                   | d/y_reg[2]_C     |                1 |              1 |
+|  clock_IBUF_BUFG |                   | d/y_reg[1]_C     |                1 |              1 |
+|  clock_IBUF_BUFG |                   | d/y_reg[0]_C     |                1 |              1 |
+|  clock_IBUF_BUFG |                   | d/xsub_reg[5]_P  |                1 |              1 |
+|  clock_IBUF_BUFG |                   | d/xsub_reg[4]_P  |                1 |              1 |
+|  clock_IBUF_BUFG |                   | d/xsub_reg[3]_P  |                1 |              1 |
+|  clock_IBUF_BUFG |                   | d/xsub_reg[2]_P  |                1 |              1 |
+|  clock_IBUF_BUFG |                   | d/xsub_reg[1]_P  |                1 |              1 |
+|  clock_IBUF_BUFG |                   | d/y_reg[4]_C     |                1 |              1 |
+|  clock_IBUF_BUFG |                   | d/x_reg[5]_C     |                1 |              1 |
+|  clock_IBUF_BUFG |                   | d/x_reg[4]_C     |                1 |              1 |
+|  clock_IBUF_BUFG |                   | d/x_reg[3]_C     |                1 |              1 |
+|  clock_IBUF_BUFG |                   | d/x_reg[2]_C     |                1 |              1 |
+|  clock_IBUF_BUFG |                   | d/x_reg[1]_C     |                1 |              1 |
+|  clock_IBUF_BUFG |                   | d/x_reg[0]_C     |                1 |              1 |
+|  clock_IBUF_BUFG |                   | d/done_reg       |                1 |              1 |
+|  clock_IBUF_BUFG |                   | d/calc0          |                1 |              1 |
+|  clock_IBUF_BUFG | xsub[5]_C_i_1_n_0 | d/xsub_reg[0]_C  |                1 |              1 |
+|  clock_IBUF_BUFG | xsub[5]_C_i_1_n_0 | d/xsub_reg[4]_C  |                1 |              1 |
+|  clock_IBUF_BUFG | xsub[5]_C_i_1_n_0 | d/xsub_reg[3]_P  |                1 |              1 |
+|  clock_IBUF_BUFG | xsub[5]_C_i_1_n_0 | d/xsub_reg[3]_C  |                1 |              1 |
+|  clock_IBUF_BUFG | xsub[5]_C_i_1_n_0 | d/xsub_reg[2]_P  |                1 |              1 |
+|  clock_IBUF_BUFG | xsub[5]_C_i_1_n_0 | d/xsub_reg[2]_C  |                1 |              1 |
+|  clock_IBUF_BUFG | xsub[5]_C_i_1_n_0 | d/xsub_reg[1]_P  |                1 |              1 |
+|  clock_IBUF_BUFG | xsub[5]_C_i_1_n_0 | d/xsub_reg[1]_C  |                1 |              1 |
+|  clock_IBUF_BUFG | xsub[5]_C_i_1_n_0 | d/xsub_reg[0]_P  |                1 |              1 |
+|  clock_IBUF_BUFG |                   | d/ysub_reg[5]_P  |                1 |              1 |
+|  clock_IBUF_BUFG |                   | d/ysub_reg[4]_P  |                1 |              1 |
+|  clock_IBUF_BUFG |                   | d/ysub_reg[3]_P  |                1 |              1 |
+|  clock_IBUF_BUFG |                   | d/ysub_reg[2]_P  |                1 |              1 |
+|  clock_IBUF_BUFG |                   | d/ysub_reg[1]_P  |                1 |              1 |
+|  clock_IBUF_BUFG |                   | d/ysub_reg[0]_P  |                1 |              1 |
+|  clock_IBUF_BUFG |                   | d/y_reg[5]_C     |                1 |              1 |
+|  clock_IBUF_BUFG | gcd[5]_i_1_n_0    | d/AR[0]          |                2 |              6 |
+|  f1/out[0]       |                   |                  |               10 |             17 |
+|  clock_IBUF_BUFG |                   |                  |                8 |             23 |
++------------------+-------------------+------------------+------------------+----------------+
+
+

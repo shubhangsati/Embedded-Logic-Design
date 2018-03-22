@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg484-1" LaunchTime="1503309120">
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="RDI-RDI" Name="scholarship.vdi"/>
+  <File Type="BG-DRC" Name="scholarship.drc"/>
+  <File Type="BG-BGN" Name="scholarship.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="scholarship.sysdef"/>
+  <File Type="BITSTR-MMI" Name="scholarship.mmi"/>
+  <File Type="BITSTR-BMM" Name="scholarship_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="scholarship.nky"/>
+  <File Type="BITSTR-RBT" Name="scholarship.rbt"/>
+  <File Type="BITSTR-MSK" Name="scholarship.msk"/>
+  <File Type="BG-BIN" Name="scholarship.bin"/>
+  <File Type="BG-BIT" Name="scholarship.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="scholarship_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="scholarship_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="scholarship_postroute_physopt.dcp"/>
+  <File Type="ROUTE-CLK" Name="scholarship_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="scholarship_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="scholarship_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="scholarship_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="scholarship_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="scholarship_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="scholarship_route_status.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="scholarship_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="scholarship_power_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="scholarship_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="scholarship_drc_routed.rpt"/>
+  <File Type="ROUTE-DCP" Name="scholarship_routed.dcp"/>
+  <File Type="PHYSOPT-TIMING" Name="scholarship_timing_summary_physopted.rpt"/>
+  <File Type="PHYSOPT-DRC" Name="scholarship_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="scholarship_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="scholarship_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="scholarship_postplace_pwropt.dcp"/>
+  <File Type="PLACE-TIMING" Name="scholarship_timing_summary_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="scholarship_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="scholarship_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="scholarship_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="scholarship_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="scholarship_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="scholarship_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="scholarship_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="scholarship_placed.dcp"/>
+  <File Type="PWROPT-TIMING" Name="scholarship_timing_summary_pwropted.rpt"/>
+  <File Type="PWROPT-DRC" Name="scholarship_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="scholarship_pwropt.dcp"/>
+  <File Type="OPT-TIMING" Name="scholarship_timing_summary_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="scholarship.hwdef"/>
+  <File Type="OPT-DRC" Name="scholarship_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="scholarship_opt.dcp"/>
+  <File Type="INIT-TIMING" Name="scholarship_timing_summary_init.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="scholarship_timing_summary_postroute_physopted.pb"/>
+  <File Type="PA-TCL" Name="scholarship.tcl"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_1/impl_1.psg"/>
+  <File Type="RUN-SRCS" Name="$PDATADIR/runs/impl_1/sources.xml"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/scholarship.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="scholarship"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/scholarshipconstraints.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2015">
+      <Desc>Vivado Implementation Defaults</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

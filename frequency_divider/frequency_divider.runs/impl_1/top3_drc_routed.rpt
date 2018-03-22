@@ -1,0 +1,48 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4 (lin64) Build 1412921 Wed Nov 18 09:44:32 MST 2015
+| Date         : Fri Sep  8 12:53:47 2017
+| Host         : root running 64-bit elementary OS 0.4.1 Loki
+| Command      : report_drc
+------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 3
+
+2. REPORT DETAILS
+-----------------
+PDRC-153#1 Warning
+Gated clock check  
+Net f3/b_reg is a gated clock net sourced by a combinational pin f3/a_i_1/O, cell f3/a_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PLHOLDVIO-2#1 Warning
+Non-Optimal connections which could lead to hold violations  
+A LUT f3/a_i_1 is driving clock pin of 8 cells. This could lead to large hold time violations. First few involved cells are:
+    c/temp_reg[0] {FDRE}
+    c/temp_reg[1] {FDRE}
+    c/temp_reg[2] {FDRE}
+    c/temp_reg[3] {FDRE}
+    c/temp_reg[4] {FDRE}
+
+Related violations: <none>
+
+ZPS7-1#1 Warning
+PS7 block required  
+The PS7 cell must be used in this Zynq design in order to enable correct default configuration.
+Related violations: <none>
+
+

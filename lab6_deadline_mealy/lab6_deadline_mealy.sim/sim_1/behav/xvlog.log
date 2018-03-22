@@ -1,0 +1,15 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/shubhang/eldlabs/lab6_deadline_mealy/lab6_deadline_mealy.srcs/sources_1/new/FSM_mealy_10101.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FSM_mealy_10101
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/shubhang/eldlabs/lab6_deadline_mealy/lab6_deadline_mealy.srcs/sources_1/imports/sources_1/imports/new/frequency_divider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module frequency_divider
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/shubhang/eldlabs/lab6_deadline_mealy/lab6_deadline_mealy.srcs/sources_1/imports/sources_1/imports/new/debouncer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module debouncer
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/shubhang/eldlabs/lab6_deadline_mealy/lab6_deadline_mealy.srcs/sources_1/imports/sources_1/new/clock_pulse.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clock_pulse
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/shubhang/eldlabs/lab6_deadline_mealy/lab6_deadline_mealy.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2458] undeclared symbol clockout, assumed default net type wire [/home/shubhang/eldlabs/lab6_deadline_mealy/lab6_deadline_mealy.srcs/sources_1/new/top.v:16]
+INFO: [VRFC 10-2458] undeclared symbol clear_debounced, assumed default net type wire [/home/shubhang/eldlabs/lab6_deadline_mealy/lab6_deadline_mealy.srcs/sources_1/new/top.v:18]
+INFO: [VRFC 10-2458] undeclared symbol cleanpulse, assumed default net type wire [/home/shubhang/eldlabs/lab6_deadline_mealy/lab6_deadline_mealy.srcs/sources_1/new/top.v:20]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/shubhang/eldlabs/lab6_deadline_mealy/lab6_deadline_mealy.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/shubhang/eldlabs/counter/counter.srcs/sources_1/new/counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter
+WARNING: [VRFC 10-1315] redeclaration of ansi port count is not allowed [/home/shubhang/eldlabs/counter/counter.srcs/sources_1/new/counter.v:29]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/shubhang/eldlabs/counter/counter.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

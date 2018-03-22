@@ -1,0 +1,37 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/shubhang/eldlabs/gcddatapath/gcddatapath.srcs/sources_1/imports/sources_1/imports/eldlabs/blockram/blockram.srcs/sources_1/new/seven_seg_display.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seven_seg_display
+WARNING: [VRFC 10-2292] extra semicolon is not allowed here in this dialect. Use SystemVerilog mode [/home/shubhang/eldlabs/gcddatapath/gcddatapath.srcs/sources_1/imports/sources_1/imports/eldlabs/blockram/blockram.srcs/sources_1/new/seven_seg_display.v:25]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/shubhang/eldlabs/gcddatapath/gcddatapath.srcs/sources_1/imports/sources_1/new/pmodsseg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pmodsseg
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/shubhang/eldlabs/gcddatapath/gcddatapath.srcs/sources_1/imports/sources_1/new/frequency_divider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module frequency_divider
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/shubhang/eldlabs/gcddatapath/gcddatapath.srcs/sources_1/imports/sources_1/imports/eldlabs/lab6_deadline/lab6_deadline.srcs/sources_1/imports/sources_1/imports/new/debouncer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module debouncer
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/shubhang/eldlabs/gcddatapath/gcddatapath.srcs/sources_1/new/datapathunit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapathunit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/shubhang/eldlabs/gcddatapath/gcddatapath.srcs/sources_1/new/controlunit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controlunit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/shubhang/eldlabs/gcddatapath/gcddatapath.srcs/sources_1/imports/new/clock_pulse.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clock_pulse
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/shubhang/eldlabs/gcddatapath/gcddatapath.srcs/sources_1/imports/sources_1/imports/eldlabs/lab5/lab5.srcs/sources_1/new/binarytobcd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module binarytobcd
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/shubhang/eldlabs/gcddatapath/gcddatapath.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2458] undeclared symbol oneninetyhertz, assumed default net type wire [/home/shubhang/eldlabs/gcddatapath/gcddatapath.srcs/sources_1/new/top.v:18]
+INFO: [VRFC 10-2458] undeclared symbol twentyfivemegahertz, assumed default net type wire [/home/shubhang/eldlabs/gcddatapath/gcddatapath.srcs/sources_1/new/top.v:19]
+INFO: [VRFC 10-2458] undeclared symbol cleardebounced, assumed default net type wire [/home/shubhang/eldlabs/gcddatapath/gcddatapath.srcs/sources_1/new/top.v:21]
+INFO: [VRFC 10-2458] undeclared symbol godebounced, assumed default net type wire [/home/shubhang/eldlabs/gcddatapath/gcddatapath.srcs/sources_1/new/top.v:22]
+INFO: [VRFC 10-2458] undeclared symbol gopulse, assumed default net type wire [/home/shubhang/eldlabs/gcddatapath/gcddatapath.srcs/sources_1/new/top.v:23]
+INFO: [VRFC 10-2458] undeclared symbol xld, assumed default net type wire [/home/shubhang/eldlabs/gcddatapath/gcddatapath.srcs/sources_1/new/top.v:25]
+INFO: [VRFC 10-2458] undeclared symbol yld, assumed default net type wire [/home/shubhang/eldlabs/gcddatapath/gcddatapath.srcs/sources_1/new/top.v:25]
+INFO: [VRFC 10-2458] undeclared symbol gld, assumed default net type wire [/home/shubhang/eldlabs/gcddatapath/gcddatapath.srcs/sources_1/new/top.v:25]
+INFO: [VRFC 10-2458] undeclared symbol xselect, assumed default net type wire [/home/shubhang/eldlabs/gcddatapath/gcddatapath.srcs/sources_1/new/top.v:25]
+INFO: [VRFC 10-2458] undeclared symbol yselect, assumed default net type wire [/home/shubhang/eldlabs/gcddatapath/gcddatapath.srcs/sources_1/new/top.v:25]
+INFO: [VRFC 10-2458] undeclared symbol eqflag, assumed default net type wire [/home/shubhang/eldlabs/gcddatapath/gcddatapath.srcs/sources_1/new/top.v:25]
+INFO: [VRFC 10-2458] undeclared symbol ltflag, assumed default net type wire [/home/shubhang/eldlabs/gcddatapath/gcddatapath.srcs/sources_1/new/top.v:25]
+INFO: [VRFC 10-2458] undeclared symbol onezeroflag, assumed default net type wire [/home/shubhang/eldlabs/gcddatapath/gcddatapath.srcs/sources_1/new/top.v:25]
+INFO: [VRFC 10-2458] undeclared symbol hundredsx, assumed default net type wire [/home/shubhang/eldlabs/gcddatapath/gcddatapath.srcs/sources_1/new/top.v:34]
+INFO: [VRFC 10-2458] undeclared symbol hundredsy, assumed default net type wire [/home/shubhang/eldlabs/gcddatapath/gcddatapath.srcs/sources_1/new/top.v:35]
+INFO: [VRFC 10-2458] undeclared symbol hundredsgcd, assumed default net type wire [/home/shubhang/eldlabs/gcddatapath/gcddatapath.srcs/sources_1/new/top.v:36]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/shubhang/eldlabs/gcddatapath/gcddatapath.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
