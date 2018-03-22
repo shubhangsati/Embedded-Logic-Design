@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Mon Aug 14 15:48:02 2017
+# Process ID: 9829
+# Current directory: /home/shubhang/lab2_behavioral/lab2_behavioral.runs/synth_1
+# Command line: vivado -log problem1_behavioral.vds -mode batch -messageDb vivado.pb -notrace -source problem1_behavioral.tcl
+# Log file: /home/shubhang/lab2_behavioral/lab2_behavioral.runs/synth_1/problem1_behavioral.vds
+# Journal file: /home/shubhang/lab2_behavioral/lab2_behavioral.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source problem1_behavioral.tcl -notrace

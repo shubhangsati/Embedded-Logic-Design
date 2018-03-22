@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Mon Aug 14 15:53:47 2017
+# Process ID: 12527
+# Current directory: /home/shubhang/lab2_behavioral/lab2_behavioral.runs/impl_1
+# Command line: vivado -log problem1_behavioral.vdi -applog -messageDb vivado.pb -mode batch -source problem1_behavioral.tcl -notrace
+# Log file: /home/shubhang/lab2_behavioral/lab2_behavioral.runs/impl_1/problem1_behavioral.vdi
+# Journal file: /home/shubhang/lab2_behavioral/lab2_behavioral.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source problem1_behavioral.tcl -notrace
+Command: open_checkpoint problem1_behavioral_routed.dcp
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.4
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization

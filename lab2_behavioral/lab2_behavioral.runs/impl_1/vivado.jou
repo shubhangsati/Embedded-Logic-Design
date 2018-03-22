@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Mon Aug 14 15:53:47 2017
+# Process ID: 12527
+# Current directory: /home/shubhang/lab2_behavioral/lab2_behavioral.runs/impl_1
+# Command line: vivado -log problem1_behavioral.vdi -applog -messageDb vivado.pb -mode batch -source problem1_behavioral.tcl -notrace
+# Log file: /home/shubhang/lab2_behavioral/lab2_behavioral.runs/impl_1/problem1_behavioral.vdi
+# Journal file: /home/shubhang/lab2_behavioral/lab2_behavioral.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source problem1_behavioral.tcl -notrace
